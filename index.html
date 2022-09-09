@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài slack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <form action="#" method="get">
+        <table>
+            <tr>
+                <th colspan="2">Đăng ký tài khoản</th>
+            </tr>
+            <tr>
+                <td colspan="2">Tên<br><input id="name" type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="faultName"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Email<br><input id="email" type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="faultEmail"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Mật khẩu<br><input id="pass" type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="faultPass"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Xác nhận mật khẩu<br><input id="cf-pass" type="password" name="cf-password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="faultCfPass"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Số điện thoại<br><input id="phone-num" type="text" name="phone-num"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="faultPhone"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Nhập địa chỉ<br><input id="location" type="text" name="location"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="faultLocate"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="validateForm()">Tạo tài khoản</button></td>
+                <td><button type="reset">Xóa</button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

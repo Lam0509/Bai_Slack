@@ -1,0 +1,11 @@
+.myStyle {
+    color: red;
+}
+
+.red-border {
+    border: 1px solid red;
+}
+
+.no-border {
+    border: 1px solid black;
+}
